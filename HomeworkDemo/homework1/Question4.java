@@ -22,12 +22,13 @@ public class Question4{
   }
   
   private static boolean isInOrder(int[] arr){
+    boolean inOrder = true;
     for(int i = 0; i < arr.length - 1; i++){
-      if(!(arr[i] <= arr[i + 1])){
-        return false;
+      if(arr[i] > arr[i + 1]){
+        inOrder = false;
       } 
     }
-    return true;
+    return inOrder;
   }
 
   
