@@ -7,7 +7,7 @@ public class Rectangle{
         length = l;
         width = w;
     }
-    
+
     public Rectangle(){
         length = 0.0;
         width = 0.0;

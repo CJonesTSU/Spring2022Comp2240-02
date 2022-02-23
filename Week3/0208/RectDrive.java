@@ -8,5 +8,9 @@ public class RectDrive{
         System.out.println("Rectangle length is: " + myRectangle.getLength());
         System.out.println("Rectangle width is: " + myRectangle.getWidth());
         System.out.println("Rectangle area is: " + myRectangle.getArea());
+        System.out.println();
+        System.out.println("myRect2 length is: " + myRect2.getLength());
+        System.out.println("myRect2 width is: " + myRect2.getWidth());
+        System.out.println("myRect2 area is: " + myRect2.getArea());
     }
 }
